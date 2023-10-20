@@ -99,4 +99,27 @@ window.onload = function(){
             ] 
         }  
     });
+    lax.addElements('.ironman-01', {
+        scrollY : {
+            translateY:[
+                [1200,2000],
+                [800,-1500],  //Centra mi elemento
+            ] 
+        }  
+    });
+    lax.addElements('.ironman-02', {
+        scrollY : {
+
+            scale:[
+                [2000,2500],
+                [0,2]
+            ],
+            translateX:[
+                [2000,2200,3000],
+                [0,1000,0],  //Centra mi elemento
+            ] 
+        }  
+    });
+
+    
 } 
