@@ -102,14 +102,13 @@ window.onload = function(){
     lax.addElements('.ironman-01', {
         scrollY : {
             translateY:[
-                [1200,2000],
+                [1300,2000],
                 [800,-1500], 
             ] 
         }  
     });
     lax.addElements('.ironman-02', {
         scrollY : {
-
             scale:[
                 [2000,2500],
                 [0,2]
@@ -120,7 +119,7 @@ window.onload = function(){
             ],
             translateY:[
                 [2000,2200,3000],
-                [-200,0,-400],  
+                [-500,0,-400],  
             ],
         }  
     });
@@ -134,6 +133,80 @@ window.onload = function(){
                 [3200,3400,3600,3800],
                 [800,1200,1600,1600],  
             ],
+        }  
+    });
+    lax.addElements('.captain-title', {
+        scrollY : {
+            filter: [
+                [3000,3100,3200,3300,3400,3500,3600],
+                [0,50,0,50,0,50,0],{
+                    cssFn: function(value){
+                        return `drop-shadow(0 0 ${value}px blue)`
+                    }
+                }
+            ],
+            translateY:[
+                [3000,3500],
+                [400,900],  //Centra mi elemento
+            ] 
+        }  
+    });
+    lax.addElements('.capi', {
+        scrollY : {
+            translateX:[
+                [3900,4400],
+                [400,-800],  
+            ],
+            translateY:[
+                [3900,4400],
+                [600,600],  
+            ],
+            scale:[
+                [3900,4400],
+                [1,0.5],  
+            ],
+            opacity:[
+                [3900,4000],
+                [0,1], 
+            ]  
+        }  
+    });
+
+    lax.addElements('.shield02', {
+        scrollY : {
+            translateX:[
+                [3900,4400],
+                [0,'screenWidth + 900'],  
+            ],
+            translateY:[
+                [3900,4400],
+                [600,600],  
+            ],
+            scale:[
+                [3900,4400],
+                [1,10],  
+            ],
+            opacity:[
+                [3900,4000],
+                [0,1], 
+            ]  
+        }  
+    });
+    lax.addElements('.rayo', {
+        scrollY : {
+            scaleX:[
+                [4500,4600],
+                [0,1],  
+            ],
+            translateY:[
+                [4700,5000,5150],
+                [-200,-200,0],  
+            ],
+            
+            opacity:[
+                [4500,4800,4850],
+                [1,1,0], 
+            ]  
         }  
     });
 
