@@ -103,7 +103,7 @@ window.onload = function(){
         scrollY : {
             translateY:[
                 [1200,2000],
-                [800,-1500],  //Centra mi elemento
+                [800,-1500], 
             ] 
         }  
     });
@@ -116,8 +116,24 @@ window.onload = function(){
             ],
             translateX:[
                 [2000,2200,3000],
-                [0,1000,0],  //Centra mi elemento
-            ] 
+                [0,1000,0],  
+            ],
+            translateY:[
+                [2000,2200,3000],
+                [-200,0,-400],  
+            ],
+        }  
+    });
+    lax.addElements('.shield', {
+        scrollY : {
+            translateX:[
+                [3200,3400,3600,3800],
+                [-800,"screenWidth - 200",0,"screenWidth + 200"],  
+            ],
+            translateY:[
+                [3200,3400,3600,3800],
+                [800,1200,1600,1600],  
+            ],
         }  
     });
 
