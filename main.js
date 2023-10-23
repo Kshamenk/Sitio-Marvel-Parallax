@@ -209,6 +209,107 @@ window.onload = function(){
             ]  
         }  
     });
+    lax.addElements('.thor-title-01 img', {
+        scrollY : {
+            scale:[
+                [4900,5000],
+                [3,1],  
+            ],
+            
+            opacity:[
+                [4900,5000],
+                [0,1], 
+            ]  
+        }  
+    });lax.addElements('.thor-title-02 img', {
+        scrollY : {
+            scale:[
+                [4925,5000],
+                [3,1],  
+            ],
+            
+            opacity:[
+                [4925,5000],
+                [0,1], 
+            ]  
+        }  
+    });
+    lax.addElements('.thor-title-03 img', {
+        scrollY : {
+            scale:[
+                [4950,5000],
+                [3,1],  
+            ],
+            
+            opacity:[
+                [4950,5000],
+                [0,1], 
+            ]  
+        }  
+    });
+    lax.addElements('.thor-title-04 img', {
+        scrollY : {
+            scale:[
+                [4975,5000],
+                [3,1],  
+            ],
+            
+            opacity:[
+                [4975,5000],
+                [0,1], 
+            ]  
+        }  
+    });
+    lax.addElements('.thor', {
+        scrollY : {
+            translateX:[
+                [4600,4800],
+                [-800, "screenWidth + 500"],  
+            ],
+            
+            translateY:[
+                [4600,4800],
+                [0,-3000], 
+            ]  
+        }  
+    });
+    lax.addElements('.thor02', {
+        scrollY : {
+            opacity:[
+                [5200,5600],
+                [0,1],  
+            ],
+            
+            translateY:[
+                [5200,5600],
+                [-5000,-300], 
+            ],
+            filter: [
+                [5200,5600],
+                [100,0],
+                {
+                    cssFn: (value) => {
+                        return `blur(${value}px)`
+                    }
+                }
+            ]
+        }  
+    });
+    lax.addElements('.avengers-logo img', {
+        scrollY : {
+            opacity:[
+                [6100,6600],
+                [0,1],  
+            ],
+            
+            scale:[
+                [6100,6600],
+                [0,1], 
+            ],
+            
+        }  
+    });
+
 
     
 } 

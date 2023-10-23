@@ -5,10 +5,10 @@ body{
     height: 7000px;
 
 
-    background-image: url(img/clouds2.png), url(img/capifondo.png);
-    background-repeat: repeat-x, repeat-x;
-    background-position: 0 100vh, 0 350vh;
-    background-size: contain, contain;
+    background-image: url(img/clouds2.png), url(img/capifondo.png),url(img/asgard.png);
+    background-repeat: repeat-x, repeat-x, repeat-x;
+    background-position: 0 100vh, 0 350vh, 0 520vh;
+    background-size: contain, contain,contain;
 
     padding: 0;
     margin: 0;
@@ -69,4 +69,29 @@ body{
     background-color: rgb(144,233,255);
     width: 100%;
     height: 150vh;
+}
+.thor-title{
+    font-size: 15em;
+    text-align: center;
+    padding-top: 200px;
+    letter-spacing: -20px;
+    margin-top: -1000px;
+}
+
+.thor02{
+    display: flex;
+    margin-left: 100px;
+    justify-content: center;
+    text-align: center;
+}
+.avengers-logo{
+    text-align: center;
+    
+    height: 80vh;
+
+    padding-top: 100px;
+}
+.avengers-logo img{
+    
+    width: 80%;
 }
