@@ -306,7 +306,7 @@ function setTitleOpacity(n) {
         ],
         translateY: [
           [5400, 5800],
-          [-5000, 100],
+          [-500, 100],
         ],
       },
     });
